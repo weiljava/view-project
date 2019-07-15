@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dhw</groupId>
-    <artifactId>student-manager</artifactId>
+    <artifactId>employee-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>student-manager</name>
+    <name>employee-manager</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -24,12 +24,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>

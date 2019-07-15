@@ -1,13 +1,13 @@
-package com.dhw.student;
+package com.dhw.employeemanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentManagerApplication {
+public class EmployeeManagerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StudentManagerApplication.class, args);
+        SpringApplication.run(EmployeeManagerApplication.class, args);
     }
 
 }
